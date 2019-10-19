@@ -13,7 +13,7 @@ func Raid1c(x, y int) {
 					z01.PrintRune(10)
 				} else if j == 1 {
 					z01.PrintRune('A')
-				} else if j == x {
+				} else if j == y {
 					z01.PrintRune('C')
 				} else {
 					z01.PrintRune(10)
