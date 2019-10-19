@@ -1,4 +1,4 @@
-package main
+package student
 
 import (
 	"github.com/01-edu/z01"
@@ -68,13 +68,4 @@ func Raid1e(x, y int) {
 		}
 	}
 	z01.PrintRune(10)
-}
-func main() {
-
-	//Raid1e(-5, 3)
-	//Raid1e(8, 1)
-	//Raid1e(1, 1)
-	//Raid1e(5, 4)
-	//Raid1e(1, 5)
-	Raid1e(9, 9)
 }
