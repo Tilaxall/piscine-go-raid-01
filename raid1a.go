@@ -24,13 +24,12 @@ func Raid1a(x, y int) {
 	}
 }
 
-func main () {
+func main() {
 
-	Raid1a(5,3)
-	Raid1a(5,1)
-	Raid1a(1,1)
-	Raid1a(1,5)
-	Raid1a(9,9)
-
+	Raid1a(5, 3)
+	Raid1a(5, 1)
+	Raid1a(1, 1)
+	Raid1a(1, 5)
+	Raid1a(9, 9)
 
 }
