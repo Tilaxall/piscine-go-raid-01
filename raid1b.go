@@ -1,4 +1,4 @@
-package student
+package main
 
 import (
 	"github.com/01-edu/z01"
@@ -11,15 +11,12 @@ func Raid1b(x, y int) {
 			for j := 1; j <= y; j++ {
 				if j == y {
 					z01.PrintRune(10)
-				}
-				if j == 1 {
-					z01.PrintRune('/')
-				} else if j == x {
 					z01.PrintRune(92)
+				} else if j == 1 {
+					z01.PrintRune('/')
 				} else {
 					z01.PrintRune(10)
 					z01.PrintRune('*')
-
 				}
 			}
 		} else if x != 1 && y == 1 {
