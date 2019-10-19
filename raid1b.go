@@ -6,7 +6,6 @@ import (
 
 func Raid1b(x, y int) {
 	if x <= 0 || y <= 0 {
-		z01.PrintRune('\n')
 	} else {
 		if x == 1 && y != 1 {
 			for j := 1; j <= y; j++ {
@@ -64,6 +63,7 @@ func Raid1b(x, y int) {
 
 			}
 		}
+
 	}
-	z01.PrintRune(10)
+
 }
