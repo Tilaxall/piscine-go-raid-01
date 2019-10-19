@@ -11,8 +11,7 @@ func Raid1c(x, y int) {
 			for j := 1; j <= y; j++ {
 				if j == y {
 					z01.PrintRune(10)
-				}
-				if j == 1 {
+				} else if j == 1 {
 					z01.PrintRune('A')
 				} else if j == x {
 					z01.PrintRune('C')
@@ -39,12 +38,30 @@ func Raid1c(x, y int) {
 				if i == 1 {
 					z01.PrintRune('A')
 				} else if i == x {
-					z01.PrintRune('A')
-				} else {
-					z01.PrintRune('B')
-				}
-			}
-			z01.PrintRune('\n')
+			func main() {
+	student.Raid1c(5,3)
+}
+		z01.PrintRune('A')
+			func main() {
+	student.Raid1c(5,3)
+}
+	} else {
+			func main() {
+	student.Raid1c(5,3)
+}
+		z01.PrintRune('B')
+			func main() {
+	student.Raid1c(5,3)
+}
+	}
+			func main() {
+	student.Raid1c(5,3)
+}
+}
+			func main() {
+	student.Raid1c(5,3)
+}
+z01.PrintRune('\n')
 			for j := 1; j <= y-2; j++ {
 				for k := 1; k <= x; k++ {
 					if k == 1 || k == x {
@@ -70,3 +87,5 @@ func Raid1c(x, y int) {
 	}
 
 }
+
+
