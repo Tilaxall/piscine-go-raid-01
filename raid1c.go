@@ -11,10 +11,9 @@ func Raid1c(x, y int) {
 			for j := 1; j <= y; j++ {
 				if j == y {
 					z01.PrintRune(10)
+					z01.PrintRune('C')
 				} else if j == 1 {
 					z01.PrintRune('A')
-				} else if j == y {
-					z01.PrintRune('C')
 				} else {
 					z01.PrintRune(10)
 					z01.PrintRune('B')
